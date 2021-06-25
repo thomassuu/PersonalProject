@@ -1,0 +1,28 @@
+{
+  "__version__": "1.0.1",
+  "general": {
+    "designResolution": {
+      "width": 1280,
+      "height": 720,
+      "fitWidth": true,
+      "fitHeight": false
+    }
+  },
+  "physics": {
+    "collisionMatrix": {
+      "0": 0,
+      "1": 4,
+      "2": 2
+    },
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Player"
+      },
+      {
+        "index": 2,
+        "name": "Egg"
+      }
+    ]
+  }
+}
